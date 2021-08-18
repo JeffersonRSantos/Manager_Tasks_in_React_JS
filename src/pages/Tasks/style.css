@@ -1,0 +1,101 @@
+
+/* content-taks */
+
+.content-taks{
+    border: 1px solid #261C2C;
+    margin-top: 10px;
+    color: #fff;
+    padding: 0 20px;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    position: relative;
+}
+
+.content-taks:hover{
+    background-color: #261C2C;
+    color: #fff;
+}
+
+.ul-icons{
+    list-style: none;
+    
+}
+
+.ul-icons li {
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0;
+    font-size: 17px;    
+}
+
+.btn-delete-task, .btn-info-task{
+    background-color: transparent;
+    border:none;
+    padding: 0;
+    margin: 0;
+    transition: .2s ease-in;
+    cursor: pointer;
+    color: #fff;
+}
+
+.content-taks hr{
+    border-bottom: 1px solid rgba(238, 238, 238, 0.363);
+}
+
+.content-taks .info-task{
+    transition: .5 ease-in-out;
+}
+
+.content-taks .info-task p{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.content-taks .info-task p svg, .info-task .btn-info-task button svg{
+    margin-right: 5px;
+}
+
+.content-taks p{
+    padding: 0 10px;
+}
+
+.content-taks .priority{
+    position: absolute;
+    height: 100%;
+	width: 0.8rem;
+    left: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+.content-taks .priority-color-high{
+    background-color: rgb(233, 57, 57) !important;
+}
+.content-taks .priority-color-medium{
+    background-color: rgb(235, 235, 49) !important;
+}
+.content-taks .priority-color-low{
+    background-color: rgb(21, 148, 21) !important;
+}
+
+.info-footer{
+    padding: 10px 0 20px 0;
+}
+
+.info-footer .btn-completed{
+    background-color: transparent;
+    border: 1px solid #28a745;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #28a745;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.info-footer .btn-completed:hover{
+    color:#0f5720;
+    background-color: #28a745;
+}
+
+
