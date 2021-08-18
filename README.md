@@ -1,6 +1,6 @@
 # Instruções da executar
 
-1 - Baixe o diretório em 
+1 - Baixe o diretório em git@github.com:JeffersonRSantos/manager-tasks-frontend.git
 
 2 - Execute:
     npm install
