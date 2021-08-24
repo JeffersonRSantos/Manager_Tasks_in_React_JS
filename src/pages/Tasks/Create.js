@@ -29,7 +29,7 @@ export default function NewTask () {
             const resp = await axios.post('tasks', data);
             if(resp) {setMsg(<Alert msg={"Nova tarefa registra com sucesso."} type={"success"} />); }
         }catch(err){
-            alert('Erro ao registrar tarefa.');
+            alert('Preencha todos os campos.');
         }
     }
 
