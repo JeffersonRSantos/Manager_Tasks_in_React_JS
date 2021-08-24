@@ -25,6 +25,20 @@ body {
   flex-wrap: nowrap;
 }
 
+@media screen and (max-width: 480px){
+  .row{
+    flex-wrap: wrap !important;
+  }
+  .container{
+    width: 100% !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+  }
+  h1{
+    font-size: 28px !important;
+  }
+}
+
 .row > .col{
   width: 100%;
 }
